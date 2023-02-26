@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-home.css">
+    <title>CSS</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteiner-bady">
+            <h1 class="text-titulo">Posicionar img, obj, etc. CSS</h1>
+            <p class="tag-p"><b>flex-start:</b> os itens se alinham no lado esquerdo do contêiner.<br>
+                <b>flex-end:</b> os itens se alinham no lado direito do contêiner.<br>
+                <b>center:</b> os itens se alinham no centro do contêiner.<br>
+                <b>space-between:</b> Os itens são exibidos com espaçamento igual entre eles.<br>
+                <b>space-around:</b> Os itens são exibidos com espaçamento igual ao redor deles.<br>
+                <b>Por exemplo, justify-content: flex-end; mover para a direita.</b><br>
+                <b><span>Usando justify-content: Faz com que se mova Horizontalmente " - "</span></b>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                <b>flex-start:</b> os itens se alinham na parte superior do contêiner.<br>
+                <b>flex-end:</b> os itens se alinham na parte inferior do contêiner.<br>
+                <b>center:</b> os itens se alinham no centro vertical do contêiner.<br>
+                <b>baseline:</b> os itens são exibidos na linha de base do contêiner.<br>
+                <b>stretch:</b> os itens são esticados para caber no contêiner.<br>
+                <b><span>Usando align-items: faz com que se mova Verticalmente " | "</span></b>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+            <b>row:</b> Os itens são colocados da mesma forma que a direção do texto.<br>
+            <b>row-reverse:</b> os itens são colocados na direção oposta à direção do texto.<br>
+            <b>column:</b> os itens são colocados de cima para baixo.<br>
+            <b>column-reverse:</b> os itens são colocados de baixo para cima.<br>
+            Usando <b>flex-direction.</b> Essa propriedade CSS define a direção em que os itens são colocados no contêiner<br>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                Às vezes, inverter a ordem das linhas ou colunas de um contêiner não é suficiente.<br>
+                Nesses casos, podemos aplicar a <b>order</b> propriedade a itens individuais. Por padrão, os itens têm um valor de 0,<br>
+                mas podemos usar essa propriedade para também defini-la como um valor inteiro positivo ou negativo (-2, -1, 0, 1, 2).<br>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                Outra propriedade que você pode aplicar a itens individuais é <br>
+                <b>align-self.</b> Esta propriedade aceita os mesmos valores <b>align-itemse</b> seu valor para o item específico.<br>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                usando a <b>flex-wrap</b> propriedade,</b> que aceita os seguintes valores:<br>
+                <b>nowrap:</b> Cada item é ajustado a uma única linha.<br>
+            <b>wrap:</b> os itens são agrupados em linhas adicionais.<br>
+                <b>wrap-reverse:</b> os itens voltam para linhas adicionais no sentido inverso.<br>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                As duas propriedades <b>flex-directione flex-wrapsão</b> usadas com tanta frequência juntas que a propriedade abreviada <b>flex-flowfoi</b> 
+                criada para combiná-las.<br>
+                Essa propriedade abreviada aceita o valor das duas propriedades separadas por um espaço.<br>
+                Por exemplo, você pode usar <b>flex-flow: row wrappara ;</b> definir linhas e envolvê-las.<br>
+                Tente usar <b>flex-flowpara</b> repetir o nível anterior.<br>
+            </p>
+        </div>
+        <div class="conteiner-bady">
+            <p class="tag-p">
+                usar <b>align-content</b> para definir como várias linhas são espaçadas umas das outras. Esta propriedade assume os seguintes valores:<br>
+                <b>flex-start:</b> as linhas são empacotadas na parte superior do contêiner.<br>
+                <b>flex-end:</b> as linhas são empacotadas na parte inferior do contêiner.<br>
+                <b>center:</b> as linhas são empacotadas no centro vertical do contêiner.<br>
+                <b>space-between:</b> As linhas são exibidas com espaçamento igual entre elas.<br>
+                <b>space-around:</b> As linhas são exibidas com espaçamento igual ao redor delas.<br>
+                <b>stretch:</b> as linhas são esticadas para caber no contêiner.<br>
+                Isso pode ser confuso, mas align-content</b> determina o espaçamento entre as linhas, enquanto <b>align-items</b> determina como os itens como um todo são alinhados dentro do contêiner.<br>
+                Quando há apenas uma linha, <b>align-content</b> não tem efeito.<br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
